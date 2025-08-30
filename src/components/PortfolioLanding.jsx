@@ -36,7 +36,6 @@ const PortfolioLanding = () => {
 
     return (
         <div className="portfolio-container">
-            {/* Navbar */}
             <Navbar bg="white" expand="lg" fixed="top" className="portfolio-navbar shadow-sm">
                 <Container>
                     <Navbar.Brand href="#" className="fw-bold fs-3 text-primary">Web Developer</Navbar.Brand>
@@ -53,7 +52,6 @@ const PortfolioLanding = () => {
                 </Container>
             </Navbar>
 
-            {/* Hero Section */}
             <section className="hero-section">
                 <Container>
                     <Row className="min-vh-100 align-items-center">
@@ -77,9 +75,9 @@ const PortfolioLanding = () => {
                         </Col>
                         <Col lg={6} className="d-none d-lg-block">
                             <div className="hero-image-container">
-                                <img 
-                                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
-                                    alt="Ali Yılmaz" 
+                                <img
+                                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                    alt="Ali Yılmaz"
                                     className="hero-image rounded-circle"
                                 />
                                 <div className="floating-element element-1"></div>
@@ -91,7 +89,6 @@ const PortfolioLanding = () => {
                 </Container>
             </section>
 
-            {/* About Section */}
             <section id="about" className="py-5 bg-light">
                 <Container>
                     <Row className="align-items-center">
@@ -124,7 +121,6 @@ const PortfolioLanding = () => {
                 </Container>
             </section>
 
-            {/* Skills Section */}
             <section id="skills" className="py-5">
                 <Container>
                     <Row className="text-center mb-5">
@@ -153,7 +149,6 @@ const PortfolioLanding = () => {
                 </Container>
             </section>
 
-            {/* Projects Section */}
             <section id="projects" className="py-5 bg-light">
                 <Container>
                     <Row className="text-center mb-5">
@@ -192,7 +187,6 @@ const PortfolioLanding = () => {
                 </Container>
             </section>
 
-            {/* Contact Section */}
             <section id="contact" className="py-5">
                 <Container>
                     <Row className="text-center mb-5">
@@ -219,7 +213,6 @@ const PortfolioLanding = () => {
                 </Container>
             </section>
 
-            {/* Footer */}
             <footer className="bg-dark text-light py-5">
                 <Container>
                     <Row className="text-center">
