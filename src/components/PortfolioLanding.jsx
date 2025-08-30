@@ -39,7 +39,7 @@ const PortfolioLanding = () => {
             {/* Navbar */}
             <Navbar bg="white" expand="lg" fixed="top" className="portfolio-navbar shadow-sm">
                 <Container>
-                    <Navbar.Brand href="#" className="fw-bold fs-3 text-primary">John Doe</Navbar.Brand>
+                    <Navbar.Brand href="#" className="fw-bold fs-3 text-primary">Web Developer</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
@@ -59,7 +59,7 @@ const PortfolioLanding = () => {
                     <Row className="min-vh-100 align-items-center">
                         <Col lg={6}>
                             <div className="hero-content">
-                                <h1 className="display-4 fw-bold mb-4">Hi, I'm <span className="text-primary">John Doe</span></h1>
+                                <h1 className="display-4 fw-bold mb-4">Hi, I'm <span className="text-primary">Ali Yılmaz</span></h1>
                                 <h2 className="display-6 fw-semibold mb-4">Web Developer & UI Designer</h2>
                                 <p className="lead mb-5">
                                     I create modern, fast and responsive web applications with a focus on user experience and clean code.
@@ -79,7 +79,7 @@ const PortfolioLanding = () => {
                             <div className="hero-image-container">
                                 <img 
                                     src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
-                                    alt="John Doe" 
+                                    alt="Ali Yılmaz" 
                                     className="hero-image rounded-circle"
                                 />
                                 <div className="floating-element element-1"></div>
@@ -98,7 +98,7 @@ const PortfolioLanding = () => {
                         <Col lg={6} className="mb-5 mb-lg-0">
                             <img
                                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                                alt="About John Doe"
+                                alt="About Ali Yılmaz"
                                 className="img-fluid rounded-3 shadow"
                             />
                         </Col>
@@ -224,7 +224,7 @@ const PortfolioLanding = () => {
                 <Container>
                     <Row className="text-center">
                         <Col>
-                            <p className="mb-0">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+                            <p className="mb-0">© {new Date().getFullYear()} Web Developer. All rights reserved.</p>
                         </Col>
                     </Row>
                 </Container>
